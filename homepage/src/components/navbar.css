@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: -1px;
+}
+.img img{
+    width: 100px;
+    height: 100px;
+    margin-top: 3px;
+    margin-left: 19px;
+    gap: 0px;
+    opacity: 0px;
+}
+#second{
+    width: Hug (592px)px;
+height: Hug (38px)px;
+margin-left: 324px;
+gap: 68px;
+opacity: 0px;
+
+}
+.third{
+  width: 36px;
+height: 36px;
+top: 47px;
+left: 1253px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.container-fluid{
+    background: rgba(126, 161, 255, 1);
+}
+.landing{
+    padding: -1px;
+}
