@@ -1,5 +1,4 @@
 import React from 'react'
-import Desiner from '../assets/Darjeeling.jpg'
 
 const Navbar = () => {
   return (
