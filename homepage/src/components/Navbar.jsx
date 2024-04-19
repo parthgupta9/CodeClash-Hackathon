@@ -1,16 +1,15 @@
 import React from 'react'
-
+import Desiner from '../assets/Designer.png'
 import '../components/navbar.css'
 import Ellipse from '../assets/Ellipse 4.png'
 import pic from '../assets/Ellipse 5.png'
-
 
 const Navbar = () => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#"></a>
+  <div className="container-fluid" >
+    <div className='img'><img src={Desiner}/></div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
