@@ -11,7 +11,7 @@ import { ServiceData } from "../constants";
 
 const ActiveSlider = () => {
   return (
-    <div className="flex items-center justify-center flex-col h-[400px]">
+    <div className="flex items-center justify-center flex-col h-[600px]">
       <h1 className="text-xl py-9">Trending Locations...</h1>
       <Swiper
         breakpoints={{
