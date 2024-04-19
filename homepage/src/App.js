@@ -5,12 +5,15 @@ import Hotels from './components/Hotels';
 import Frequently from './components/Frequently';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
+import Local from './components/Local';
+import Restaurant from './components/Restaurant';
 function App() {
   return (
     <div className="App">
      <Navbar/>
      <ActiveSlider/>
      <hr/>
+    <Restaurant/>
      <Hotels/>
      <hr/>
      <ActiveSlider/>
@@ -20,6 +23,8 @@ function App() {
      <Frequently/>
      <br/>
      <hr/>
+     <Local/>
+     <br/>
      <Testimonials/>
      <Footer/>
     </div>
