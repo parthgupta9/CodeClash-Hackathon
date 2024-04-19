@@ -7,8 +7,11 @@ function App() {
     <div className="App">
      <Navbar/>
      <ActiveSlider/>
+     <hr/>
      <Hotels/>
+     <hr/>
      <ActiveSlider/>
+     <hr/>
     </div>
   );
 }
