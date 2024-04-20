@@ -10,7 +10,7 @@ import Restaurant from './components/Restaurant';
 function App() {
   return (
     <div className="App">
-     <Navbar/>
+   <Navbar/>
      <ActiveSlider/>
      <hr/>
     <Restaurant/>
