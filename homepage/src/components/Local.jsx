@@ -1,33 +1,32 @@
-import React from 'react'
+import React from "react";
+import Button from "../layouts/Button";
+import img from "../assets/oldman.jpg";
+import { Link } from "react-scroll";
 
 const Local = () => {
+  const backgroundColor = `bg-brightColor`;
+
   return (
-    <div>
-       <section id="About">
-      <div class="about-content">
-        <h2>ASK A LOCAL</h2>
+    <div className="  min-h-screen lg:min-h-[90vh]  flex flex-col justify-center lg:flex-row items-center md:mx-32 mx-20">
+      <div className=" flex flex-col text-center  lg:text-start gap-5">
+        <h1 className=" font-semibold text-5xl leading-tight">
+          Ask a Local
+        </h1>
         <p>
-          Welcome to our unique platform that connects you with passionate with
-          local expert who are eager to share their knowledge and love for their
-          region with you.
+          Have Questions about the Destinations. Ask from the local people we provide for you.
         </p>
 
-        <div class="section-button hotel-button">
-          Explore <img src="/Imgs/icons/bleft.png" alt="" />
+        <div className=" lg:pl-24">
+          <Link to="destination" spy={true} smooth={true} duration={500}>
+            <Button title="Search" backgroundColor={backgroundColor} />
+          </Link>
         </div>
       </div>
-
-      <div class="about-img">
-        <img
-          src="https://assets.cntraveller.in/photos/614f1e2f1550911ec11e0db0/master/w_1600%2Cc_limit/prem-sagar.jpg"
-          alt=""
-          width="556"
-          height="488"
-        />
+      <div className=" mt-14 lg:mt-0 w-full lg:w-4/5">
+        <img src={img} alt="img" />
       </div>
-    </section>
     </div>
-  )
-}
+  );
+};
 
-export default Local
+export default Local;

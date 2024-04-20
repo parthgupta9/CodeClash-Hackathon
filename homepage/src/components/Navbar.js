@@ -1,8 +1,8 @@
 import React from 'react'
 
 import '../components/navbar.css'
-import Ellipse from '../assets/Ellipse 4.png'
-import pic from '../assets/Ellipse 5.png'
+import Ellipse from '../assets/Ellipsefour.jpg'
+import pic from '../assets/Ellipsefive.jpg'
 
 
 const Navbar = () => {
