@@ -6,7 +6,7 @@ const Restaurant = () => {
      <h1 className='pt-20 font-bold'>Hotels and Restaurant</h1><div className='flex flex-row space-e items-center justify-around flex-col h-[600px]' >
      <div className=' flex flex-col font-bold '><h1>Search and Book Hotels</h1>
          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-Search Hotel
+<a href="https://papaya-biscotti-9a5110.netlify.app/">Search Hotel</a>
 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
 </svg>
