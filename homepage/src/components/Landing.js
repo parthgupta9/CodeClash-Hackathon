@@ -1,5 +1,7 @@
 import React from 'react'
 import anding from '../assets/Frame 18 (1).png'
+import landing from  "../assets/Delhi Tourism 1.png"
+import main from "../assets/Jaipur.jpg"
 import imgg from '../assets/down.png'
 
 const Landing = () => {
@@ -15,10 +17,10 @@ const Landing = () => {
         <img src={anding} className="d-block w-100" alt="..."/>
       </div>
       <div className="carousel-item">
-        <img src={anding} className="d-block w-100" alt="..."/>
+        <img src={landing} className="d-block w-100" alt="..."/>
       </div>
       <div className="carousel-item">
-        <img src={anding} className="d-block w-100" alt="..."/>
+        <img src={main} className="d-block w-100" alt="..."/>
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -30,7 +32,12 @@ const Landing = () => {
       <span className="visually-hidden">Next</span>
     </button>
     {/* <img src={imgg} style={{marginTop:"-80px"}}></img> */}
-  </div></div>
+    <br/>
+    <br/>
+    <hr/>
+  </div>
+  </div>
+
   )
 }
 

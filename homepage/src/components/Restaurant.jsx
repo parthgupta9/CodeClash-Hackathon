@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const Restaurant = () => {
   return (
@@ -21,6 +22,7 @@ const Restaurant = () => {
    allowfullscreen=""
    loading="lazy"
    referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <Link to='/hotels'><button>hotels</button></Link>
 </div></div>
  </>
     
