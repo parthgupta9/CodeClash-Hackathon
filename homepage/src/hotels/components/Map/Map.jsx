@@ -14,14 +14,14 @@ const Map = ({
   setCoords,
   setBounds,
   setChildClicked,
-  weatherData,
+  
 }) => {
   const matches = useMediaQuery("(min-width:600px)");
   const classes = useStyles();
 
   return (
     <div className={classes.mapContainer}>
-      <GoogleMapReact
+      {/* <GoogleMapReact
         bootstrapURLKeys={{
           key: "AIzaSyDPp3obd2OJlsC3bBP1t8oq95yl8cBOY_s",
         }}
@@ -78,16 +78,8 @@ const Map = ({
               )}
             </div>
           ))}
-        {weatherData?.list?.length &&
-          weatherData.list.map((data, i) => (
-            <div key={i} lat={data.coord.lat} lng={data.coord.lon}>
-              <img
-                src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`}
-                height="70px"
-              />
-            </div>
-          ))}
-      </GoogleMapReact>
+       
+      </GoogleMapReact> */}
     </div>
   );
 };
